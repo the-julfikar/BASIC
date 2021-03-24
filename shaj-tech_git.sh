@@ -22,4 +22,7 @@ git commit
 git commit -m "msg"
 
 git log
-git log --online #Formatted.
+git log --oneline #Formatted.
+
+#Revert back previous file
+git checkout xxxxx #take xxxxx from git log
