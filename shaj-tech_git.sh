@@ -26,3 +26,17 @@ git log --oneline #Formatted.
 
 #Revert back previous file
 git checkout xxxxx #take xxxxx from git log
+git checkout master #all deleted commits will be revert
+
+
+git diff
+git show b260679 #check the committing things, take the commit number from git log
+git diff b260679 b260679 #comparison for 2 commits
+
+git diff --staged #after adding files (when in stage mood)
+
+git rm *.txt #deleting file from git and commit
+git reset HEAD delete.txt #Untracking from GIT => then git commit -m "msg"
+
+#Adding GitHub
+git remote add origin https://github.com/the-julfikar/BASIC.git
